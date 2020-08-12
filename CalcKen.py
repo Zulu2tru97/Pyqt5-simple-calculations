@@ -335,7 +335,7 @@ class Win(QMainWindow):
       #filemenu on main menu 
         fle = mainMenu.addMenu("File")
        #clear button for file menu
-        clrButton = QAction(QIcon(""), 'Claire',self)
+        clrButton = QAction(QIcon(""), 'Clear',self)
         clrButton.setShortcut("Ctrl+R")
         clrButton.setStatusTip("All Facts Doe")
         clrButton.triggered.connect(self.calcbuttonClicked)
